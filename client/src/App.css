@@ -1,0 +1,46 @@
+/* General Styling for the App Container */
+.app-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #ffffff; /* White background for the main container */
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.app-header {
+  margin-bottom: 30px;
+}
+
+.app-title {
+  font-family: "Creepster", sans-serif;
+  font-size: 4.5rem;
+  color: #3498db;  /* Soft blue color */
+  text-shadow: 0 0 10px rgba(30, 58, 138, 0.4), 0 0 20px rgba(30, 58, 138, 0.2);
+  margin-bottom: 10px;
+}
+
+.app-subtitle {
+  font-size: 1.5rem;
+  color: #555555; /* Dark gray subtitle */
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* Light theme room URL display */
+.room-url {
+  background-color: #ecf0f1; /* Light gray background */
+  color: #2c3e50; /* Dark text for URL */
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.room-url a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.room-url a:hover {
+  text-decoration: underline;
+}

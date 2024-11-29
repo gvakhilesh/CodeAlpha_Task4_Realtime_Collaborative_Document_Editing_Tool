@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+  background: #f7f7f7; /* Light off-white background */
+  margin: 0;
+  font-family: "Roboto", sans-serif; /* Clean sans-serif font */
+  color: #2c3e50; /* Dark text for contrast */
+}
+
+.app-container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #ffffff; /* White background for the main container */
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.app-header {
+  margin-bottom: 30px;
+}
+
+.app-title {
+  font-family: "Creepster", sans-serif;
+  font-size: 4.5rem;
+  color: #3498db; /* Light blue color */
+  text-shadow: 0 0 10px rgba(30, 58, 138, 0.4), 0 0 20px rgba(30, 58, 138, 0.2);
+  margin-bottom: 10px;
+}
+
+.app-subtitle {
+  font-size: 1.5rem;
+  color: #555555; /* Dark gray for the subtitle */
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* Room URL Display */
+.room-url {
+  background-color: #ecf0f1; /* Light gray background */
+  color: #2c3e50; /* Dark text color */
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.room-url a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.room-url a:hover {
+  text-decoration: underline;
+}
+
+/* Container for the Quill Editor */
+.container {
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the editor container */
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border: 1px solid #ddd; /* Light border */
+  min-height: 400px;
+  color: #2c3e50; /* Dark text color */
+}
+
+/* Quill Editor Styling */
+.ql-container {
+  min-height: 600px;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px;
+  color: #2c3e50; /* Dark text for the editor */
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.ql-toolbar {
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #2c3e50; /* Dark text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ql-toolbar button {
+  background-color: #3498db; /* Blue color for buttons */
+  color: #fff; /* White text */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ql-toolbar button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  transform: translateY(-2px);
+}
+
+.ql-toolbar select {
+  background-color: #3498db;  /* Blue color for select box */
+  color: #fff; /* White text */
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.ql-toolbar select:hover {
+  background-color: #2980b9;  /* Darker blue on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for editor content */
+.ql-editor {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 12px;
+  color: #2c3e50; /* Dark text color */
+}
+
+.ql-editor.ql-blank::before {
+  color: #888;
+  content: "Start typing...";
+  font-style: italic;
+  font-size: 18px;
+}
+
+.ql-editor:focus {
+  border: 2px solid #3498db; /* Blue border on focus */
+  box-shadow: 0 4px 16px rgba(52, 152, 219, 0.5);
+}

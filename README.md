@@ -23,7 +23,7 @@ npm install
 Start the frontend: npm run dev
 The frontend will start on http://localhost:5173.
 
-5. MongoDB Setup
+### 3. MongoDB Setup
    Make sure you have MongoDB running either locally or remotely. Update the MongoDB connection string in the backend (server.js):
 
 javascript
